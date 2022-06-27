@@ -5,7 +5,7 @@
 import socket
 def recvall(sock: socket.socket) -> str:
 
-    BUFFER = 1024
+    BUFFER = 4096
     data = ""
 
     while True:
