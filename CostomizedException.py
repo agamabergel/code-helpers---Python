@@ -14,7 +14,7 @@ class CostomizedException(Exception):
 
     # Using the returned Expetion with our costom text
     # def __str__(self) -> str:
-    #    return super().__str__() + "My costom Exception text"
+    #    return super().__str__() + "My custom Exception text"
 
 
 # This function rasing the Exception
