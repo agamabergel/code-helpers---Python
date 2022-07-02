@@ -20,6 +20,3 @@ class CostomizedException(Exception):
 # This function rasing the Exception
 def use_Exception(): 
     raise CostomizedException("Hello world!")
-
-if __name__ == "__main__":
-    use_Exception()
